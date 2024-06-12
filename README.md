@@ -18,3 +18,14 @@ With the advances in surgical robotics, robot-assisted endoscopic submucosal dis
 </p>
 
 
+## Data Download
+We offer the download link for all the data involved in CoPESD. We offer two categories of data for download and use. The first category is **free for download**. This sort of data has been involved in our previous work and can be downloaded and used by anyone. The second category of data is **request for download**, which needs to submit a request to us before downloading. For data security review purposes, we need to identify the applicant's usage of the data and determine whether to provide a download link based on that usage.
+
+### Free Download Data
+The free download data can be downloaded through [this link](https://drive.google.com/file/d/1JlbWeqhmbjcSNzPScTUrPa38zGk1oCgV/view?usp=sharing).
+
+### Request Download Data
+If you wish to have access to full CoPESD dataset, please kindly fill the request [form](https://docs.google.com/forms/d/e/1FAIpQLSeWSscEChOgqKlIzMwXbp1qlBSiy257lP-dveoyTF136fftMw/viewform).
+
+## Questions?
+If you have any questions, feel free to reach out to `gkwang@link.cuhk.edu.hk`. Please try to specify the problem with details so we can help you better and quicker!
