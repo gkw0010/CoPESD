@@ -29,3 +29,6 @@ If you wish to have access to full CoPESD dataset, please kindly fill the reques
 
 ## Questions?
 If you have any questions, feel free to reach out to `gkwang@link.cuhk.edu.hk`. Please try to specify the problem with details so we can help you better and quicker!
+
+## License
+The new contributions of our dataset (e.g., the instructions, reference outputs, model ranking annotations, etc.) are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
