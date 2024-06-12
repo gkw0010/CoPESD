@@ -12,8 +12,8 @@ With the advances in surgical robotics, robot-assisted endoscopic submucosal dis
 
 <p align="center">
   <img 
-    width="800"
-    src="./figure/overview.png"
+    width="1000"
+    src="./figures/overview.png"
   >
 </p>
 
