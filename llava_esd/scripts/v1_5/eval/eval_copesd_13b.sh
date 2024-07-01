@@ -1,0 +1,41 @@
+#!/bin/bash
+
+
+
+gpu_list="${CUDA_VISIBLE_DEVICES:-0}"
+IFS=',' read -ra GPULIST <<< "$gpu_list"
+
+CHUNKS=${#GPULIST[@]}
+
+CKPT="llava-v1.5-13b"
+SPLIT="llava_13b_copesd"
+
+for IDX in $(seq 0 $((CHUNKS-1))); do
+    CUDA_VISIBLE_DEVICES=${GPULIST[$IDX]} python -m llava.eval.model_copesd \
+        --model-path ./checkpoints/llava-v1.5-13b-copesd \
+        --question-file ./playground/data/smllm/smllm_test.json \
+        --image-folder ./playground/data/eval/vqav2/test2015 \
+        --answers-file ./playground/data/eval/copesd/answers/$SPLIT/$CKPT/${CHUNKS}_${IDX}.jsonl \
+        --num-chunks $CHUNKS \
+        --chunk-idx $IDX \
+        --temperature 0 \
+        --conv-mode vicuna_v1 &
+done
+
+wait
+
+
+
+output_file=LLaVA/playground/data/eval/copesd/answers/llava_13b_copesd/llava-v1.5-13b/merge.jsonl
+
+# Clear out the output file if it exists.
+> "$output_file"
+
+# Loop through the indices and concatenate each file.
+for IDX in $(seq 0 $((CHUNKS-1))); do
+    cat LLaVA/playground/data/eval/copesd/answers/llava_13b_copesd/llava-v1.5-13b/${CHUNKS}_${IDX}.jsonl >> "$output_file"
+done
+
+
+
+

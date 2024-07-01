@@ -1,0 +1,4 @@
+META:
+  -
+    path: 'data/annotations/smllm/smllm_train.json'
+    type: 'text'

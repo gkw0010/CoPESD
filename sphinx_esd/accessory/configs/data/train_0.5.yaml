@@ -1,0 +1,5 @@
+META:
+  -
+    path: 'data/annotations/smllm/smllm_train.json'
+    type: 'text'
+    ratio: 0.5
