@@ -92,7 +92,7 @@ To run inference and evaluate using the fine-tuned models, use the following com
    cd llava_esd
    bash scripts/v1_5/eval/eval_copesd_13b.sh
    ```
-#### Checkpoints rlease
+#### Checkpoints Release
 
 We have released the fine-tuned model checkpoints on [huggingface](https://huggingface.co/HanXiao1999/CoPESD). You can download them and perform evaluations directly.
 ## Questions
