@@ -56,7 +56,7 @@ To fine-tune Sphinx-ESD-13B with different image sizes, use the following comman
    bash exps/finetune_ens5_13b.sh
    ```
 #### Inference
-To run inference and evaluate using the fine-tuned models, use the following command:
+To run inference and evaluate using the fine-tuned models, use the following commands:
    ```
    cd sphinx_esd/accessory
    bash exps/generate_action.sh
@@ -81,7 +81,7 @@ To fine-tune LLaVA-ESD-7B and LLaVA-ESD-13B models, use the following commands:
    bash scripts/v1_5/finetune_copesd_13b.sh
    ```
 #### Inference
-To run inference and evaluate using the fine-tuned models, use the following command:
+To run inference and evaluate using the fine-tuned models, use the following commands:
 ##### For the 7B model:
    ```
    cd llava_esd
