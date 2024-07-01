@@ -31,68 +31,68 @@ The free download data can be downloaded through [this link](https://drive.googl
 
 If you wish to have access to full CoPESD dataset, please kindly fill the request [form](https://docs.google.com/forms/d/e/1FAIpQLSeWSscEChOgqKlIzMwXbp1qlBSiy257lP-dveoyTF136fftMw/viewform).
 
-### Fine-tuning on CoPESD dataset
+## Fine-tuning on CoPESD dataset
 
-####  Sphinx-ESD
+###  Sphinx-ESD
 
-##### Environment Setup
+#### Environment Setup
 
 1. Follow the instructions provided in the [LLaMA2-Accessory](https://github.com/Alpha-VLLM/LLaMA2-Accessory) repository to set up the environment.
 
 2. Download the pretrained Sphinx-Tiny-1k models from [huggingface](https://huggingface.co/Alpha-VLLM/LLaMA2-Accessory/tree/main/finetune/mm/SPHINX/SPHINX-Tiny-1k) and place them in the `sphinx_esd/accessory/data/SPHINX-Tiny` directory.
 
-##### Fine-tuning with CoPESD Dataset
+#### Fine-tuning with CoPESD Dataset
 
 To fine-tune Sphinx-ESD-13B with different image sizes, use the following commands:
 
-###### For Image Size 512:
+##### For Image Size 512:
    ```
    cd sphinx_esd/accessory
    bash exps/finetune_ens1_13b.sh
    ```
-###### For Image Size 1024:
+##### For Image Size 1024:
    ```
    cd sphinx_esd/accessory
    bash exps/finetune_ens5_13b.sh
    ```
-##### Inference
+#### Inference
 To run inference and evaluate using the fine-tuned models, use the following command:
    ```
    cd sphinx_esd/accessory
    bash exps/generate_action.sh
    ```
-####  LLaVA-ESD
-##### Environment Setup
+###  LLaVA-ESD
+#### Environment Setup
 
 Follow the instructions provided in the [LLaVA](https://github.com/Alpha-VLLM/LLaMA2-Accessory) repository to set up the environment and download the pretrained LLaVA-1.5 models.
 
-##### Fine-tuning with CoPESD Dataset
+#### Fine-tuning with CoPESD Dataset
 
 To fine-tune LLaVA-ESD-7B and LLaVA-ESD-13B models, use the following commands:
 
-###### For the 7B model:
+##### For the 7B model:
    ```
    cd llava_esd
    bash scripts/v1_5/finetune_copesd_7b.sh
    ```
-###### For the 13B model:
+##### For the 13B model:
    ```
    cd llava_esd
    bash scripts/v1_5/finetune_copesd_13b.sh
    ```
-##### Inference
+#### Inference
 To run inference and evaluate using the fine-tuned models, use the following command:
-###### For the 7B model:
+##### For the 7B model:
    ```
    cd llava_esd
    bash scripts/v1_5/eval/eval_copesd_7b.sh
    ```
-###### For the 13B model:
+##### For the 13B model:
    ```
    cd llava_esd
    bash scripts/v1_5/eval/eval_copesd_13b.sh
    ```
-#### Checkpoints Release
+### Checkpoints Release
 
 We have released the fine-tuned model checkpoints on [huggingface](https://huggingface.co/HanXiao1999/CoPESD). You can download them and perform evaluations directly.
 ## Questions
