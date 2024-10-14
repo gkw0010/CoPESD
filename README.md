@@ -99,6 +99,19 @@ We have released the fine-tuned model checkpoints on [huggingface](https://huggi
 
 If you have any questions, feel free to reach out to `gkwang@link.cuhk.edu.hk`. Please try to specify the problem with details so we can help you better and quicker!
 
+## Citation
+
+If you find ``CoPESD`` useful for your research or development, please cite the following:
+
+```latex
+@article{wang2024copesd,
+  title={CoPESD: A Multi-Level Surgical Motion Dataset for Training Large Vision-Language Models to Co-Pilot Endoscopic Submucosal Dissection},
+  author={Wang, Guankun and Xiao, Han and Gao, Huxin and Zhang, Renrui and Bai, Long and Yang, Xiaoxiao and Li, Zhen and Li, Hongsheng and Ren, Hongliang},
+  journal={arXiv preprint arXiv:2410.07540},
+  year={2024}
+}
+```
+
 ## License
 
 The new contributions of our dataset (e.g., the instructions, reference outputs, model ranking annotations, etc.) are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
