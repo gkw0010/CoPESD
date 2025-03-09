@@ -29,7 +29,9 @@ The free download data can be downloaded through [this link](https://drive.googl
 
 ### Request Download Data
 
-If you wish to have access to full CoPESD dataset, please kindly fill the request [form](https://docs.google.com/forms/d/e/1FAIpQLSeWSscEChOgqKlIzMwXbp1qlBSiy257lP-dveoyTF136fftMw/viewform).
+The data will be publicly accessible upon acceptance.
+
+# If you wish to have access to full CoPESD dataset, please kindly fill the request [form](https://docs.google.com/forms/d/e/1FAIpQLSeWSscEChOgqKlIzMwXbp1qlBSiy257lP-dveoyTF136fftMw/viewform).
 
 ## Fine-tuning on CoPESD dataset
 
