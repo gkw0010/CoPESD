@@ -29,7 +29,7 @@ The free download data can be downloaded through [this link](https://drive.googl
 
 ### Request Download Data
 
-The data will be publicly accessible upon acceptance.
+The data will be publicly accessible upon acceptance of the paper.
 
 
 ## Fine-tuning on CoPESD dataset
