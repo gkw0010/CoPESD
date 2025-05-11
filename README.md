@@ -1,10 +1,13 @@
 # CoPESD: A Multi-Level Surgical Motion Dataset for Training Large Vision-Language Models to Co-Pilot Endoscopic Submucosal Dissection
 
-Guankun Wang∗, Han Xiao∗, Huxin Gao, Renrui Zhang, Long Bai, Xiaoxiao Yang, Zhen Li, Hongsheng Li†, Hongliang Ren†
+Guankun Wang∗, Han Xiao∗, Renrui Zhang, Huxin Gao, Long Bai, Xiaoxiao Yang, Zhen Li, Hongsheng Li†, Hongliang Ren†
+
+## Supplementary Material
+More details about CoPESD can be found in the [supplementary material](https://drive.google.com/file/d/1wO3nCkhzpa4qWJS-zrWa-oLZ9wgL8Hig/view?usp=sharing).
 
 ## Overview
 
-With the advances in surgical robotics, robot-assisted endoscopic submucosal dissection (ESD) enables rapid resection of large lesions, minimizing recurrence rates and improving long-term overall survival. Despite these advantages, ESD is technically challenging and carries high risks of complications, necessitating skilled surgeons and precise instruments. Recent advancements in Large Visual-Language Models (LVLMs) offer promising decision support and predictive planning capabilities for robotic systems, which can augment the accuracy of ESD and reduce procedural risks. However, existing datasets for multi-level fine-grained ESD surgical motion understanding are scarce and lack detailed annotations. In this paper, we design a hierarchical decomposition of ESD motion granularity and introduce a multi-level surgical motion dataset (CoPESD) for training LVLMs as the robotic Co-Pilot of Endoscopic Submucosal Dissection. CoPESD includes 17,679 images with 32,699 bounding boxes and 88,395 multi-level motions, from over 35 hours of ESD videos for both robot-assisted and conventional surgeries. CoPESD enables granular analysis of ESD motions, focusing on the complex task of submucosal dissection. Extensive experiments on the LVLMs demonstrate the effectiveness of CoPESD in training LVLMs to predict following surgical robotic motions. As the first multimodal ESD motion dataset, CoPESD supports advanced research in ESD instruction-following and surgical automation.
+With the advances in surgical robotics, robot-assisted endoscopic submucosal dissection (ESD) enables rapid resection of large lesions, minimizing recurrence rates and improving long-term overall survival. Despite these advantages, ESD is technically challenging and carries high risks of complications, necessitating skilled surgeons and precise instruments. Recent advancements in Multimodal Large Language Models (MLLMs) offer promising decision support and predictive planning capabilities for robotic systems, which allows the robot to complete complex tasks in more challenging scenarios. However, the training of MLLMs requires large-scale, well-annotated datasets, and existing datasets for multi-level fine-grained ESD surgical motion reasoning are scarce and lack detailed annotations. In this paper, we design a hierarchical decomposition of ESD motion granularity and introduce a multi-level surgical motion dataset (CoPESD) for training MLLMs as the robotic \textbf{Co}-\textbf{P}ilot of \textbf{E}ndoscopic \textbf{S}ubmucosal \textbf{D}issection. CoPESD includes 17,679 images with 32,699 bounding boxes and 88,395 multi-level motions, from over 35 hours of ESD videos for both robot-assisted and conventional surgeries. Extensive experiments demonstrate the effectiveness of CoPESD in training MLLMs to comprehend surgical scenarios and reason following surgical robotic motions. As the first multimodal ESD motion dataset, CoPESD supports advanced research in ESD motion decision-making and surgical automation.
 
 ## Features
 
@@ -21,15 +24,7 @@ With the advances in surgical robotics, robot-assisted endoscopic submucosal dis
 
 ## Data Download
 
-We offer the download link for all the data involved in CoPESD. We offer two categories of data for download and use. The first category is **free for download**. This sort of data has been involved in our previous work and can be downloaded and used by anyone. The second category of data is **request for download**, which needs to submit a request to us before downloading. For data security review purposes, we need to identify the applicant's usage of the data and determine whether to provide a download link based on that usage.
-
-### Free Download Data
-
-The free download data can be downloaded through [this link](https://drive.google.com/file/d/1l_pK93y4cDncMHh6f0wlh2Fcbmk7TBMH/view?usp=sharing).
-
-### Request Download Data
-
-The data will be publicly accessible upon acceptance of the paper.
+CoPESD data can be downloaded through [this link]().
 
 
 ## Fine-tuning on CoPESD dataset
