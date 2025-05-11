@@ -102,7 +102,7 @@ If you find ``CoPESD`` useful for your research or development, please cite the 
 ```latex
 @article{wang2024copesd,
   title={CoPESD: A Multi-Level Surgical Motion Dataset for Training Large Vision-Language Models to Co-Pilot Endoscopic Submucosal Dissection},
-  author={Wang, Guankun and Xiao, Han and Gao, Huxin and Zhang, Renrui and Bai, Long and Yang, Xiaoxiao and Li, Zhen and Li, Hongsheng and Ren, Hongliang},
+  author={Wang, Guankun and Xiao, Han and Zhang, Renrui and Gao, Huxin and Bai, Long and Yang, Xiaoxiao and Li, Zhen and Li, Hongsheng and Ren, Hongliang},
   journal={arXiv preprint arXiv:2410.07540},
   year={2024}
 }
