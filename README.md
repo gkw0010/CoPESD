@@ -24,7 +24,7 @@ With the advances in surgical robotics, robot-assisted endoscopic submucosal dis
 
 ## Data Download
 
-CoPESD data can be downloaded through [this link]().
+CoPESD data can be downloaded through [this link](https://drive.google.com/file/d/1d6nIhiviiTGjAbBQsnFFvgRIobTFmQSu/view?usp=sharing).
 
 
 ## Fine-tuning on CoPESD dataset
