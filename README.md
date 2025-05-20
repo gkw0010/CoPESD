@@ -3,7 +3,7 @@
 Guankun Wang∗, Han Xiao∗, Renrui Zhang, Huxin Gao, Long Bai, Xiaoxiao Yang, Zhen Li, Hongsheng Li†, Hongliang Ren†
 
 ## Supplementary Material
-More details about CoPESD can be found in the [supplementary material](https://drive.google.com/file/d/1wO3nCkhzpa4qWJS-zrWa-oLZ9wgL8Hig/view?usp=sharing).
+**More details** about CoPESD can be found in the [**supplementary material**](https://drive.google.com/file/d/1wO3nCkhzpa4qWJS-zrWa-oLZ9wgL8Hig/view?usp=sharing).
 
 ## Overview
 
